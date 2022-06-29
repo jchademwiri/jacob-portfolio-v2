@@ -38,7 +38,7 @@ export const About = ({
 					</h3>
 					<p className='text-sm text-zinc-400'>{description}</p>
 				</div>
-				<div className='flex flex-col max-w-xl col-span-4 lg:col-span-2'>
+				<div className='flex flex-col max-w-xl col-span-7 sm:col-span-3 lg:col-span-2'>
 					<h3 className='mb-4 text-sm font-semibold tracking-wide uppercase text-zinc-50'>
 						Technologies
 					</h3>
@@ -50,7 +50,7 @@ export const About = ({
 						))}
 					</ul>
 				</div>
-				<div className='flex flex-col max-w-xl col-span-7 lg:col-span-2'>
+				<div className='flex flex-col max-w-xl col-span-7 sm:col-span-3 lg:col-span-2'>
 					<h3 className='mb-4 text-sm font-semibold tracking-wide uppercase text-zinc-50'>
 						Quick Links
 					</h3>

@@ -36,11 +36,12 @@ export const PortfolioSection = ({
 					</h3>
 					<p className='text-sm text-zinc-400'>{description}</p>
 				</div>
-				<div className='flex flex-col max-w-xl col-span-7 lg:col-span-2'>
+
+				<div className='flex flex-col max-w-xl col-span-7 sm:col-span-3 lg:col-span-2'>
 					<h3 className='mb-4 text-sm font-semibold tracking-wide uppercase text-zinc-50'>
 						Technologies
 					</h3>
-					<ul className='space-y-1 list-none'>
+					<ul className='mb-4 space-y-1 list-none'>
 						{technologies.map((tech) => (
 							<li key={tech} className='text-sm text-zinc-400'>
 								{tech}
@@ -48,7 +49,7 @@ export const PortfolioSection = ({
 						))}
 					</ul>
 				</div>
-				<div className='flex flex-col max-w-xl col-span-7 lg:col-span-2'>
+				<div className='flex flex-col max-w-xl col-span-7 sm:col-span-3 lg:col-span-2'>
 					<h3 className='mb-4 text-sm font-semibold tracking-wide uppercase text-zinc-50'>
 						Links
 					</h3>
