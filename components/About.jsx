@@ -18,6 +18,8 @@ export const About = ({
 						alt={profileAlt}
 						layout='fill'
 						objectFit='cover'
+						placeholder='blur'
+						blurDataURL={profile}
 					/>
 				</div>
 				<div>

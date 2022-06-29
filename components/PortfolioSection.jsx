@@ -18,7 +18,14 @@ export const PortfolioSection = ({
 				</h2>
 				<div className='flex items-center justify-center w-32 h-32 bg-zinc-900'>
 					<div className='relative w-10 h-10'>
-						<Image src={logo} alt={title} layout='fill' objectFit='contain' />
+						<Image
+							src={logo}
+							alt={title}
+							layout='fill'
+							objectFit='contain'
+							placeholder='blur'
+							blurDataURL={logo}
+						/>
 					</div>
 				</div>
 			</header>

@@ -56,7 +56,7 @@ const Homepage = () => {
 		},
 		{
 			title: 'Sea Harvest',
-			logo: '/Seaharvest.svg',
+			logo: '/seaHarvest.svg',
 			color: '#266AFA',
 			description: `Sea Harvest is a Zimbabwean fish company that specializes in fresh fish from the Kariba and Mutare. I spearheaded the development of the site from the ground up. `,
 			technologies: [, 'React', 'SCSS', 'Sanity CMS'],
