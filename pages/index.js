@@ -2,59 +2,91 @@ import { Layout, About, PortfolioSection } from '../components';
 
 const Homepage = () => {
 	const technologies = [
-		'TypeScript',
+		'JavaScript',
 		'Next.js',
 		'React',
+		'Sanity CMS',
 		'Tailwind',
+		'CSS / SCSS',
 		'MongoDB',
-		'Express',
+		'Wordpress',
+		'Figma',
 	];
 
 	const quickLinks = [
-		{ text: 'GitHub', href: 'https://github.com/hunterbecton' },
-		{ text: 'YouTube', href: 'https://www.youtube.com/skillthrive' },
-		{ text: 'Twitter', href: 'https://twitter.com/hunterbecton' },
-		{ text: 'Email', href: 'mailto:hunter@skillthrive.com' },
+		{ text: 'GitHub', href: 'https://github.com/jchademwiri' },
+		{ text: 'LinkedIn', href: 'https://www.linkedin.com/in/jchademwiri' },
+		{
+			text: 'YouTube',
+			href: 'https://www.youtube.com/channel/UCgnCtM2Ih8L5xNXXpBREmEg?sub_confirmation=1',
+		},
+		{ text: 'Twitter', href: 'https://twitter.com/jchademwiri' },
+		{ text: 'Email', href: 'mailto:info@playhousemedia.net' },
 	];
 
 	const portfolioItems = [
 		{
-			title: 'Skillthrive',
-			logo: '/skillthrive-logo.png',
+			title: 'Playhouse Media Group',
+			logo: '/playhouseMedia.svg',
 			color: '#30bc72',
-			description: `What started as a fun way to share my knowledge and explore new topics has now grown into a YouTube channel with over 50K subscribers. I've recently launched a new version of the site that allows authors to create lessons and code snippets directly from the site.`,
-			technologies: ['Next.js', 'React', 'Tailwind', 'Stripe', 'Supabase'],
+			description: `Playhouse Media Group is a media company that specializes in the creation responsive websites and applications that are user friendly and easy to use and seo optimized with a focus on speed and performance.`,
+			technologies: [
+				'Next.js',
+				'React',
+				'Tailwind',
+				'SCSS',
+				'Sanity CMS',
+				'Cloudinary',
+			],
 			links: [
-				{ text: 'Site', href: 'https://www.skillthrive.com' },
-				{ text: 'YouTube', href: 'https://www.youtube.com/skillthrive' },
+				{ text: 'Site', href: 'https://www.playhousemedia.net' },
+				{
+					text: 'YouTube',
+					href: 'https://www.youtube.com/playhousemediagroup',
+				},
+				{
+					text: 'LinkedIn',
+					href: 'https://www.linkedin.com/company/playhouse-media-group',
+				},
+				{
+					text: 'Facebook',
+					href: 'https://www.facebook.com/playhousemediagroup',
+				},
 			],
 		},
 		{
-			title: 'LeapPage',
-			logo: '/leappage-logo.png',
-			color: '#3B82F6',
-			description: `LeapPage is a landing page builder made for sales teams to create relevant content experiences for their leads that perform and look great across any device.`,
-			technologies: ['Next.js', 'React', 'Tailwind', 'Stripe', 'MongoDB'],
-			links: [{ text: 'Site', href: 'https://www.leappage.com' }],
+			title: 'Sea Harvest',
+			logo: '/Seaharvest.svg',
+			color: '#266AFA',
+			description: `Sea Harvest is a Zimbabwean fish company that specializes in fresh fish from the Kariba and Mutare. I spearheaded the development of the site from the ground up. `,
+			technologies: [, 'React', 'SCSS', 'Sanity CMS'],
+			links: [
+				{ text: 'Site', href: 'https://seaharvest.co.zw/' },
+				{ text: 'Facebook', href: 'https://www.facebook.com/seaharvestZW' },
+			],
 		},
 		{
-			title: 'Mattermix',
-			logo: '/mattermix-logo.png',
-			color: '#4f46e5',
-			description: `Mattermix is an image generation API to help automate and create images at scale with HTML and CSS. The API is RESTful and has an integration with Zapier to simplifying automation with other apps.`,
-			technologies: ['Next.js', 'React', 'Lambda', 'Stripe', 'MongoDB'],
-			links: [{ text: 'Site', href: 'https://www.mattermix.com' }],
+			title: 'Edurite',
+			logo: '/Edurite.svg',
+			color: '#6978D7',
+			description: `Edurite offers unique, personalized, professional, virtual assistance with academic assignments and research projects in Business Studies. I championed the development of the site from the ground up using wordpress using elementor page builder, I then created social media pages for the site and connected their business to Google my Business.`,
+			technologies: ['Wordpress', 'WooCommerce', 'Elementor'],
+			links: [
+				{ text: 'Site', href: 'https://www.edurite.co.za' },
+				{ text: 'Facebook', href: 'https://www.facebook.com/eduritepro' },
+				{ text: 'LinkedIn', href: 'https://www.linkedin.com/company/edurite' },
+			],
 		},
 	];
 
 	return (
 		<Layout>
 			<About
-				profile='/hunter.jpeg'
-				profileAlt='Hunter Becton'
+				profile='/jacobc.jpg'
+				profileAlt='Jacob Chademwiri'
 				subtitle='Frontend Developer'
-				title='Hunter Becton'
-				description={`I'm a full-stack JavaScript developer in Atlanta, GA. I'm building a community for anyone to learn how to code on Skillthrive, plus creating other entertaining and educational content for geeks alike.`}
+				title='Jacob Chademwiri'
+				description={`I'm a frontend developer in Centurion, SA. I love to build websites  with JavaScript, Next.js, React, Express, Tailwind and MongoDB, I'm also a fan of the Sanity CMS and the Wordpress platform. I help build websites for small businesses and medium sized businesses, I also provide Digital Marketing services and help them grow their online presence.`}
 				technologies={technologies}
 				quickLinks={quickLinks}
 			/>
