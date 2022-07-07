@@ -13,10 +13,10 @@ export const PortfolioSection = ({
 			<header
 				className='flex justify-between pt-10 pl-10 pr-10 lg:pt-20 lg:pl-20 lg:pr-20'
 				style={{ backgroundColor: color }}>
-				<h2 className='self-end mb-1 font-serif text-2xl text-zinc-50 sm:text-3xl md:mb-2 lg:text-4xl'>
+				<h2 className='self-end mb-1 font-sans text-2xl font-bold text-zinc-50 sm:text-3xl md:mb-2 lg:text-4xl'>
 					{title}
 				</h2>
-				<div className='flex items-center justify-center w-32 h-32 bg-zinc-900'>
+				<div className='flex items-center justify-center w-32 h-32 rounded-t bg-zinc-800'>
 					<div className='relative w-10 h-10'>
 						<Image
 							src={logo}

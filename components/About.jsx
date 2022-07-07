@@ -10,10 +10,11 @@ export const About = ({
 	quickLinks,
 }) => {
 	return (
-		<section className='p-10 bg-zinc-800 lg:p-20'>
+		<section className='p-10 lg:p-20'>
 			<header className='flex flex-wrap w-full'>
-				<div className='relative w-32 h-32 mb-8 mr-8'>
+				<div className='relative w-32 h-32 mb-8 mr-8 '>
 					<Image
+						className='rounded-full'
 						src={profile}
 						alt={profileAlt}
 						layout='fill'
@@ -26,7 +27,7 @@ export const About = ({
 					<p className='mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-400'>
 						{subtitle}
 					</p>
-					<h1 className='font-serif text-4xl text-zinc-50 lg:text-6xl'>
+					<h1 className='font-sans text-4xl text-zinc-50 lg:text-6xl'>
 						{title}
 					</h1>
 				</div>
@@ -62,7 +63,9 @@ export const About = ({
 									className='hover:underline'
 									target='_blank'
 									rel='noopener noreferrer'>
-									{link.text}
+									<span>
+										{link.text} - {link.username}
+									</span>
 								</a>
 							</li>
 						))}

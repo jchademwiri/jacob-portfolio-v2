@@ -8,9 +8,9 @@ function MyApp({ Component, pageProps }) {
 			<DefaultSeo
 				titleTemplate='Jacob Chademwiri | %s'
 				title='Frontend developer in Centurion, SA'
-				description={`I'm a frontend developer in Centurion, SA. I love to build websites  with JavaScript, Next.js, React, Express, Tailwind and MongoDB.`}
+				description={`I'm a Frontend Developer in Centurion, SA. I love to build websites  with JavaScript, Next.js, React, Express, Tailwind and MongoDB.`}
 				openGraph={{
-					title: 'frontend developer in Centurion, SA',
+					title: 'Frontend Developer in Centurion, SA',
 					description: `I'm a frontend developer in Centurion, SA. I love to build websites  with JavaScript, Next.js, React, Express, Tailwind and MongoDB.`,
 					type: 'website',
 					locale: 'en_US',
