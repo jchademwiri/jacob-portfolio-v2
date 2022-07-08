@@ -3,7 +3,7 @@ import { technologies, quickLinks, portfolioItems } from '../data';
 
 const Homepage = () => {
 	return (
-		<Layout>
+		<>
 			<About
 				profile='/jacobc.jpg'
 				profileAlt='Jacob Chademwiri'
@@ -31,7 +31,7 @@ const Homepage = () => {
 					/>
 				)
 			)}
-		</Layout>
+		</>
 	);
 };
 
