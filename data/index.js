@@ -43,23 +43,33 @@ export const quickLinks = [
 
 export const portfolioItems = [
 	{
+		title: 'Sithembe Transportation and Projects',
+		logo: '/logo-white.png',
+		color: '#30bc72',
+		description: `Sithembe Transportation and Projects is a privately owned company in continuous, uninterrupted business since 2013. STP is committed to transformation and believes that it has a responsibility to act on this commitment.`,
+		technologies: ['Next.js', 'React', 'Tailwind'],
+		links: [
+			{ text: 'Site', href: 'https://www.sithembe.co.za' },
+			{
+				text: 'LinkedIn',
+				href: 'https://www.linkedin.com/company/sithembe-transportation-and-projects',
+			},
+
+					],
+	},
+	{
 		title: 'King Tax Accounting Services',
 		logo: '/kingTax.svg',
 		color: '#6978D7',
 		description: `King Tax Accounting Services is a company that helps to register companies and provide accounting services and tax returns for companies and individuals, they also ensure that your business is tax compliant.`,
 		technologies: ['Next.js', 'React', 'Tailwind', 'SCSS'],
 		links: [
-			{ text: 'Site', href: 'https://www.kingtaxaccounting.co.za' },
+			{ 
+				text: 'Site', 
+				href: 'https://www.kingtaxaccounting.co.za' },
+			
 
-			// {
-			// 	text: 'LinkedIn',
-			// 	href: 'https://www.linkedin.com/company/king-tax-accounting-services',
-			// },
-			// {
-			// 	text: 'Facebook',
-			// 	href: 'https://www.facebook.com/king-tax-accounting-services',
-			// },
-		],
+					],
 	},
 	{
 		title: 'Playhouse Media Group',

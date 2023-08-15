@@ -1,4 +1,4 @@
-import { Layout, About, PortfolioSection } from '../components';
+import { About, PortfolioSection } from '../components';
 import { technologies, quickLinks, portfolioItems } from '../data';
 
 const Homepage = () => {

@@ -5,6 +5,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
+		"sanity": "yarn start /studio",
 		"postbuild": "next-sitemap",
 		"lint": "next lint"
 	},

@@ -10,6 +10,14 @@ export default {
 			type: 'string',
 		},
 		{
+			name: 'logo',
+			title: 'Project Logo',
+			type: 'image',
+			options: {
+				hotspot: true,
+			},
+		},
+		{
 			title: 'Project URL',
 			name: 'projectUrl',
 			description: 'example: https://playhousemedia.net',
@@ -24,21 +32,16 @@ export default {
 				layout: 'tags',
 			},
 		},
-		{
-			name: 'links',
-			title: 'Links',
-			type: 'array',
-			of: [{ type: 'reference', to: { type: 'link' } }],
-		},
+
 		{
 			title: 'Linkedin',
-			name: 'LinkedinLink',
+			name: 'linkedin',
 			description: 'Example: https://facebook.com/playhousemediagroup',
 			type: 'url',
 		},
 		{
 			title: 'Facebook',
-			name: 'facebookLink',
+			name: 'facebook',
 			description: 'Example: https://facebook.com/playhousemediagroup',
 			type: 'url',
 		},
@@ -46,15 +49,6 @@ export default {
 			name: 'description',
 			title: 'Description',
 			type: 'text',
-		},
-
-		{
-			name: 'logo',
-			title: 'Project Logo',
-			type: 'image',
-			options: {
-				hotspot: true,
-			},
 		},
 	],
 
