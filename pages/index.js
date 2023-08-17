@@ -9,7 +9,10 @@ const Homepage = () => {
 				profileAlt='Jacob Chademwiri'
 				subtitle='Frontend Developer'
 				title='Jacob Chademwiri'
-				description={`I'm a frontend developer in Centurion, SA. I love to build websites  with JavaScript, Next.js, React, Express, Tailwind and MongoDB, I'm also a fan of the Sanity CMS and the Wordpress platform. I help build websites for small businesses and medium sized businesses, I also provide Digital Marketing services and help them grow their online presence.`}
+			
+				descParaOne={`I'm Jacob Chademwiri, a dedicated frontend developer based in Centurion, South Africa. With a passion for crafting seamless digital experiences, I specialize in creating static and dynamic websites that blend cutting-edge technologies with intuitive design. My toolkit includes Typescript, JavaScript, Next.js, React, Tailwind, and Wordpress, which allow me to bring versatility and innovation to every project.`}
+			
+				descParaTwo={`For over 3 years, I've immersed myself in the ever-evolving world of web development. What started as a fascination with coding has grown into a full-fledged commitment to helping businesses thrive online. Throughout my journey, I've honed my skills and cultivated a deep understanding of user-centric design, performance optimization, and effective communication.`}
 				technologies={technologies}
 				quickLinks={quickLinks ? quickLinks : ''}
 			/>
@@ -19,13 +22,14 @@ const Homepage = () => {
 				</h3>
 			</header>
 			{portfolioItems.map(
-				({ title, logo, color, description, technologies, links }) => (
+				({ title, logo, color, description,services, technologies, links }) => (
 					<PortfolioSection
 						key={title}
 						title={title}
 						logo={logo}
 						color={color ? color : '#fbbf24'}
 						description={description}
+						services={services}
 						technologies={technologies}
 						links={links}
 					/>
