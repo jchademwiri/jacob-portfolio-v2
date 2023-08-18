@@ -1,28 +1,31 @@
-This is a simple, one-page portfolio built with Next.js and Tailwind CSS.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Start the Dev Server
+## Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Update the Portfolio Items
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-You can update your about section and portfolio items from the `pages/index.js` file.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Replace the Images
+## Learn More
 
-Change and update the images in the `public` folder. You'll also need to update your profile and logo image paths in the about section and portfolio items.
+To learn more about Next.js, take a look at the following resources:
 
-Use this [Figma project](https://www.figma.com/file/EEOhLx4ydkv1wbYclJ3MhJ/Image-Templates?node-id=0%3A1) as a template for your images. You can use the Favicon Generator(https://favicon.io/favicon-converter/) to convert the favicon to all the appropriate files.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Update the Default SEO
-
-Update the SEO for your portfolio from the `pages/_app.js` file. Be sure to replace the `https://hunterbecton.com/social.jpg` with your final domain and file path.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
