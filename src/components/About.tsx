@@ -82,7 +82,7 @@ export const About = ({
 						</h3>
 						<ul className='list-none'>
 							{profileLinks.map(({ text, href, username }) => (
-								<li key={text} className='text-sm py-1 text-[#30bc72]'>
+								<li key={text} className='text-sm py-2 my-1 text-[#30bc72]'>
 									<Link
 										href={href}
 										className='hover:underline'
