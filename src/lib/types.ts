@@ -1,8 +1,3 @@
-// export type TProfileLinks = {
-//     text: string;
-//     href: string;
-//     username: string;
-// }
 export type TPortfolioItems = {
     title: string;
     logo: string;
