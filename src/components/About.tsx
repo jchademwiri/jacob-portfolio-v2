@@ -33,17 +33,16 @@ export const About = ({
 					<h1 className='font-sans text-4xl text-zinc-50 lg:text-6xl'>
 						{title}
 					</h1>
-					<div className='text-[#30bc72] font-semibold my-4 flex gap-4 ' >
+					<div className='text-[#30bc72] font-medium md:font-semibold my-4 flex flex-wrap gap-2 ' >
 
 						<Link href={`tel:+27740491433`} >
 							074 049 1433
 						</Link>
-
-						|
+						<span>|</span>
 						<Link href={`mailto:info@playhousemedia.net`}>
 							info@playhousemedia.net
 						</Link>
-						|
+						<span>|</span>
 						<Link href={`mailto:jchademwiri@gmail.com`}>
 							jchademwiri@gmail.com
 						</Link>
