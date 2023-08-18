@@ -68,7 +68,7 @@ export const About = ({
 							Technologies
 						</h3>
 						{/* flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0 */}
-						<ul className='space-y-1 list-none flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0'>
+						<ul className='list-none flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0'>
 							{technologies.map((tech) => (
 								<li key={tech} className='text-sm text-zinc-400'>
 									{tech}{', '}
@@ -80,7 +80,7 @@ export const About = ({
 						<h3 className='mb-4 text-sm font-semibold tracking-wide uppercase text-zinc-50'>
 							Quick Links
 						</h3>
-						<ul className='space-y-1 list-none'>
+						<ul className='list-none'>
 							{profileLinks.map(({ text, href, username }) => (
 								<li key={text} className='text-sm text-[#30bc72]'>
 									<Link

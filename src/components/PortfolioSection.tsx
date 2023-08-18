@@ -55,7 +55,7 @@ export const PortfolioSection = ({
 					<h3 className='mb-4 text-sm font-semibold tracking-wide uppercase text-zinc-50'>
 						Technologies
 					</h3>
-					<ul className='mb-4 space-y-1 list-none flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0'>
+					<ul className='mb-4 list-none flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0'>
 						{technologies.map((tech) => (
 							<li key={tech} className='text-sm  text-zinc-400 p-1'>
 								{tech}{', '}
@@ -67,7 +67,7 @@ export const PortfolioSection = ({
 					<h3 className='mb-4 text-sm font-semibold tracking-wide uppercase text-zinc-50'>
 						Links
 					</h3>
-					<ul className='space-y-1 list-none flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0'>
+					<ul className='list-none flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0'>
 						{links.map((link) => (
 							<li key={link.text} className='text-sm p-1' style={{ color }}>
 								<a
