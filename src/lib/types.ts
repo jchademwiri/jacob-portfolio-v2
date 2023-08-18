@@ -1,8 +1,8 @@
-export type TProfileLinks = {
-    text: string;
-    href: string;
-    username: string;
-}
+// export type TProfileLinks = {
+//     text: string;
+//     href: string;
+//     username: string;
+// }
 export type TPortfolioItems = {
     title: string;
     logo: string;
@@ -23,4 +23,9 @@ export type TAbout = {
     descParaOne: string,
     descParaTwo: string,
     technologies: string[],
+    profileLinks: {
+        text: string;
+        href: string;
+        username: string;
+    }[]
 }
