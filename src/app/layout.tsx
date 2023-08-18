@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -60,6 +61,7 @@ export default function RootLayout({
         <footer className='py-4 mt-5 text-center text-white'>
           Jacob Chademwiri - &copy; {new Date().getFullYear()} All Rights Reserved
         </footer>
+        <Analytics />
       </body>
     </html>
   )

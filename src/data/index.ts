@@ -1,4 +1,4 @@
-import { TPortfolioItems, TProfileLinks, } from "@/lib/types";
+import { TPortfolioItems, } from "@/lib/types";
 
 // Personal Technologies
 export const technologies = [
@@ -16,7 +16,7 @@ export const technologies = [
 // Personal Links
 
 
-export const profileLinks: TProfileLinks[] = [
+export const profileLinks = [
     {
         text: 'GitHub',
         href: 'https://github.com/jchademwiri',

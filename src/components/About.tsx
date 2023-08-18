@@ -1,5 +1,5 @@
-import { profileLinks } from '@/data';
-import { TAbout, TProfileLinks, } from '@/lib/types';
+// import { profileLinks } from '@/data';
+import { TAbout } from '@/lib/types';
 import Image from 'next/image';
 import Link from 'next/link';
 export const About = ({
@@ -10,6 +10,7 @@ export const About = ({
 	descParaOne,
 	descParaTwo,
 	technologies,
+	profileLinks,
 
 }: TAbout,) => {
 	return (
@@ -80,7 +81,7 @@ export const About = ({
 							Quick Links
 						</h3>
 						<ul className='space-y-1 list-none'>
-							{profileLinks.map(({ text, href, username }: TProfileLinks) => (
+							{profileLinks.map(({ text, href, username }) => (
 								<li key={text} className='text-sm text-[#30bc72]'>
 									<Link
 										href={href}
@@ -93,7 +94,6 @@ export const About = ({
 									</Link>
 								</li>
 							))}
-
 						</ul>
 					</div>
 				</div>
