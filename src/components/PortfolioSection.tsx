@@ -1,4 +1,6 @@
+import { TPortfolioItems } from '@/lib/types';
 import Image from 'next/image';
+
 
 export const PortfolioSection = ({
 	title,
@@ -8,7 +10,7 @@ export const PortfolioSection = ({
 	technologies,
 	links,
 	color,
-}) => {
+}: TPortfolioItems) => {
 	return (
 		<section>
 			<header
@@ -20,9 +22,9 @@ export const PortfolioSection = ({
 				<div className='flex items-center justify-center w-32 h-32 rounded-t bg-zinc-800'>
 					<div className='relative w-20 h-20'>
 						<Image
+							className='object-contain'
 							src={logo}
 							alt={title}
-							objectFit='contain'
 							placeholder='blur'
 							width={80}
 							height={80}
@@ -39,7 +41,7 @@ export const PortfolioSection = ({
 					<p className='text-sm text-zinc-400'>{description}</p>
 					<div className='text-zinc-50 my-2 gap-2' >
 						<h3 className='font-medium text-sm my-2 uppercase' >SERVICES RENDERED</h3>
-						<ul className='mb-4 space-y-1 flex flex-wrap gap-2 items-center list-none'>
+						<ul className='mb-4 flex flex-wrap gap-2 items-center list-none'>
 							{services.map((service) => (
 								<li key={service} className='text-sm  text-[#30bc72]'>
 									{service}{', '}

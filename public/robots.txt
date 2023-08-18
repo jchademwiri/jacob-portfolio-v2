@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jacobc.co.za/
+
+# Sitemaps
+Sitemap: https://jacobc.co.za/sitemap.xml
+Sitemap: https://jacobc.co.za//sitemap.xml
