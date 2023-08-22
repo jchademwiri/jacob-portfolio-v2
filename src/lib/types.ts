@@ -1,7 +1,6 @@
 export type TPortfolioItems = {
     title: string;
     logo: string;
-    // color: string;
     description: string;
     services: string[];
     technologies: (string | undefined)[];
