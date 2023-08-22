@@ -53,8 +53,8 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className={`${inter.className}min-h-screen bg-zinc-900 sm:p-6 lg:p-12`} >
-        <main className='mx-auto rounded max-w-7xl bg-zinc-800' >
+      <body className={`${inter.className}min-h-screen bg-dark sm:p-6 lg:p-12`} >
+        <main className='mx-auto rounded max-w-7xl bg-armyGreen/30' >
 
           {children}
         </main>

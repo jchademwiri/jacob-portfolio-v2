@@ -16,18 +16,17 @@ export default function Home() {
         technologies={technologies}
         profileLinks={profileLinks}
       />
-      <header className='p-10 text-white lg:pt-20 lg:pl-20 lg:pr-20'>
-        <h3 className='text-2xl font-bold sm:text-3xl md:mb-2 lg:text-4xl'>
+      <header className='p-10 text-accent/90 bg-armyGreen lg:pt-20 lg:pl-20 lg:pr-20'>
+        <h3 className='text-2xl  font-bold sm:text-3xl md:mb-2 lg:text-4xl'>
           My Recent Success Stories.
         </h3>
       </header>
       {portfolioItems.map(
-        ({ title, logo, color, description, services, technologies, links }) => (
+        ({ title, logo,  description, services, technologies, links }) => (
           <PortfolioSection
             key={title}
             title={title}
             logo={logo}
-            color={color ? color : '#fbbf24'}
             description={description}
             services={services}
             technologies={technologies}
