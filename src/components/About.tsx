@@ -14,9 +14,9 @@ export const About = ({
 
 }: TAbout,) => {
 	return (
-		<section className='p-10'>
+		<section className='p-10 bg-armyGreen'>
 			<header className='flex flex-wrap w-full'>
-				<div className='relative w-32 h-32 mb-8 mr-8 border-2 rounded-full border-[#30bc72] '>
+				<div className='relative w-32 h-32 mb-8 mr-8 border-2 rounded-full border-accent'>
 					<Image
 						className='rounded-full object-cover'
 						src={profile}
@@ -28,13 +28,13 @@ export const About = ({
 					/>
 				</div>
 				<div className='' >
-					<p className='mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-400'>
+					<p className='mb-2 text-sm font-semibold tracking-wider uppercase text-accent/90'>
 						{subtitle}
 					</p>
 					<h1 className='font-sans text-4xl text-zinc-50 lg:text-6xl'>
 						{title}
 					</h1>
-					<div className='text-[#30bc72] font-medium md:font-semibold my-4 flex flex-wrap gap-2 ' >
+					<div className='text-accent/90 font-medium md:font-semibold my-4 flex flex-wrap gap-2 ' >
 
 						<Link href={`tel:+27740491433`} >
 							074 049 1433
@@ -55,7 +55,7 @@ export const About = ({
 					<h3 className='mb-4 text-2xl font-bold tracking-wide uppercase text-zinc-50'>
 						About
 					</h3>
-					<div className='text-zinc-400'>
+					<div className='text-zinc-300'>
 
 						<p className='my-4' >{descParaOne}</p>
 
@@ -70,7 +70,7 @@ export const About = ({
 						{/* flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0 */}
 						<ul className='list-none flex gap-1 sm:gap-0 items-center flex-wrap sm:grid sm:p-0'>
 							{technologies.map((tech) => (
-								<li key={tech} className='text-sm text-zinc-400'>
+								<li key={tech} className='text-sm text-zinc-300'>
 									{tech}{', '}
 								</li>
 							))}
@@ -82,14 +82,14 @@ export const About = ({
 						</h3>
 						<ul className='list-none'>
 							{profileLinks.map(({ text, href, username }) => (
-								<li key={text} className='text-sm text-[#30bc72]'>
+								<li key={text} className='text-sm py-2 my-1 text-accent'>
 									<Link
 										href={href}
 										className='hover:underline'
 										target='_blank'
 										rel='noopener noreferrer'>
 										<span>
-											{text} - {username} {', '}
+											{text} - {username} {','}
 										</span>
 									</Link>
 								</li>

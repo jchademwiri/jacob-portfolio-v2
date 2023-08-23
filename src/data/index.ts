@@ -49,7 +49,7 @@ export const portfolioItems: TPortfolioItems[] = [
     {
         title: 'Sithembe Transportation and Projects',
         logo: '/seaHarvest.svg',
-        color: '#30bc72',
+
         description: `Sithembe Transportation and Projects is a privately owned company in continuous, uninterrupted business since 2013. STP is committed to transformation and believes that it has a responsibility to act on this commitment.`,
         services: ['Web Development', 'SEO', 'Web Hosting', 'Email Signature', 'Letterhead', 'Company Profile'],
         technologies: ['Next.js', 'React', 'Typescript', 'Tailwind'],
@@ -64,7 +64,7 @@ export const portfolioItems: TPortfolioItems[] = [
     {
         title: 'Gas Call',
         logo: '/gascall.svg',
-        color: '#30bc72',
+
         description: `Gascall is an independent company, purchasing LPG directly from the various refineries in South Africa and supplying same directly to our clients in cylinder and bulk format. They have their own cylinder stock and LPG filling plants to ensure that we manage our costs and pass on the benefit to our clients.`,
         services: ['Web Development', 'Web & Email Hosting',],
         technologies: ['Wordpress', 'Woo Commerce', 'Elementor'],
@@ -73,7 +73,7 @@ export const portfolioItems: TPortfolioItems[] = [
     // {
     // 	title: 'Solar Bank',
     // 	logo: '//seaHarvest.svg',
-    // 	color: '#30bc72',
+    // 	
     // 	description: `Edurite offers unique, personalized, professional, virtual assistance with academic assignments and research projects in Business Studies. I championed the development of the site from the ground up using wordpress using elementor page builder, I then created social media pages for the site and connected their business to Google my Business.`,
     // 	services: ['Web Development','Web & Email Hosting',],
     // 	technologies: ['Wordpress','Woo Commerce','Elementor Pro',],
@@ -82,7 +82,7 @@ export const portfolioItems: TPortfolioItems[] = [
     {
         title: 'King Tax Accounting Services',
         logo: '/kingTax.svg',
-        color: '#30bc72',
+
         description: `King Tax Accounting Services is a company that helps to register companies and provide accounting services and tax returns for companies and individuals, they also ensure that your business is tax compliant.`,
         services: ['Web Development', 'SEO', 'Web & Email Hosting'],
         technologies: ['Next.js', 'React', 'Typescript', 'Tailwind'],
@@ -96,7 +96,7 @@ export const portfolioItems: TPortfolioItems[] = [
     {
         title: 'Trading In Glory',
         logo: '/tig.svg',
-        color: '#30bc72',
+
         description: `Edurite offers unique, personalized, professional, virtual assistance with academic assignments and research projects in Business Studies. I championed the development of the site from the ground up using wordpress using elementor page builder, I then created social media pages for the site and connected their business to Google my Business.`,
         services: ['Web & Email Hosting', 'Logo Design', 'Invoice Design', 'Company Profile', 'Website Under Construction'],
         technologies: ['Next.js', 'React', 'Typescript', 'Tailwind'],
@@ -107,7 +107,7 @@ export const portfolioItems: TPortfolioItems[] = [
     {
         title: 'Playhouse Media Group',
         logo: '/playhouseMedia.svg',
-        color: '#30bc72',
+
         description: `Playhouse Media Group is a media company that specializes in the creation responsive websites and applications that are user friendly and easy to use and seo optimized with a focus on speed and performance.`,
         services: ['Web Development', 'SEO', 'Web & Email Hosting', 'Logo', 'Email Signature', 'Leterhead'],
         technologies: [
@@ -136,7 +136,7 @@ export const portfolioItems: TPortfolioItems[] = [
     {
         title: 'Sea Harvest',
         logo: '/seaHarvest.svg',
-        color: '#30bc72',
+
         description: `Sea Harvest is a Zimbabwean fish company that specializes in fresh fish from the Kariba and Mutare. I spearheaded the development of the site from the ground up. `,
         services: ['Web Development', 'Web Hosting'],
         technologies: ['React', 'Javascript', 'Tailwind'],
@@ -148,7 +148,7 @@ export const portfolioItems: TPortfolioItems[] = [
     {
         title: 'Edurite',
         logo: '/Edurite.svg',
-        color: '#30bc72',
+
         description: `Edurite offers unique, personalized, professional, virtual assistance with academic assignments and research projects in Business Studies. I championed the development of the site from the ground up using wordpress using elementor page builder, I then created social media pages for the site and connected their business to Google my Business.`,
         services: ['Email Hosting', 'Logo Design', 'Website Under Construction'],
         technologies: ['Next.js', 'React', 'Typescript', 'Tailwind'],
